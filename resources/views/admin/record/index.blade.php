@@ -126,7 +126,7 @@
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <img class="card-img-left" src="{{asset('public/images/113310.svg')}}" alt="" height="30" width="60">
+                <img class="card-img-left" src="{{asset('images/113310.svg')}}" alt="" height="30" width="60">
                 <h5 class="modal-title" id="nptModalLabel">NPT details of Machine <b><span id="npt_machine_name"></span> </b> </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

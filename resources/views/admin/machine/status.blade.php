@@ -4,7 +4,7 @@
 	<div class="col-lg-12">
 		<h1 class="text-center">Machine Status</h1>
 	</div>
-	
+
 </div>
 <div class="container">
 	<div class="row">
@@ -12,7 +12,7 @@
 			<div class="col-md-2 col-sm-2 col-xs-6">
 				<div class="card flex-row flex-wrap {{ $machine->class }}">
 					<div class="card-header border-0" style="padding: 0; margin: 0">
-			            <img class="card-img-left" src="{{asset('public/images/113310.svg')}}" alt="" height="30" width="50">
+			            <img class="card-img-left" src="{{asset('images/113310.svg')}}" alt="" height="30" width="50">
 			            <span>{{$machine->model_no}}</span>
 			        </div>
 			        <div class="card-block px-2">
@@ -21,9 +21,9 @@
 				</div>
 			</div>
 		@endforeach
-		
+
 	</div>
-</div>	
+</div>
 @endsection
 @section('scripts')
 @parent
